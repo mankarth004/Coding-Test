@@ -11,7 +11,7 @@ The intension of this coding test is to fetch the git repository from the REST A
     Used MVVM architecture for neat, modular and testable code
 
 ## Code coverage
-    Integrated Unit testing with 90% code coverage
+    Integrated Unit testing with 89.7% code coverage
 
 ## Dependencies and sources
     1. Thanks to GitHub Search API providing great APIs. In this application I used (https://developer.github.com/v3/search).
