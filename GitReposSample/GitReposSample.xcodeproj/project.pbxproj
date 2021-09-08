@@ -26,6 +26,7 @@
 		A8F0E8BF26E7A0BB0061D845 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F0E8BE26E7A0BB0061D845 /* Constants.swift */; };
 		A8F0E8C426E7A0D90061D845 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F0E8C326E7A0D90061D845 /* Extensions.swift */; };
 		A8F0E8E126E7BE9D0061D845 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A8F0E8E026E7BE9D0061D845 /* README.md */; };
+		A8F0E8ED26E893B70061D845 /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F0E8EC26E893B70061D845 /* DataProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,7 @@
 		A8F0E8BE26E7A0BB0061D845 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		A8F0E8C326E7A0D90061D845 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		A8F0E8E026E7BE9D0061D845 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A8F0E8EC26E893B70061D845 /* DataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -218,6 +220,7 @@
 				A8F0E8BE26E7A0BB0061D845 /* Constants.swift */,
 				A8F0E8C326E7A0D90061D845 /* Extensions.swift */,
 				A8F0E89C26E7676D0061D845 /* RegexValidator.swift */,
+				A8F0E8EC26E893B70061D845 /* DataProvider.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -363,6 +366,7 @@
 			files = (
 				A8F0E89D26E7676D0061D845 /* RegexValidator.swift in Sources */,
 				A8F0E8C426E7A0D90061D845 /* Extensions.swift in Sources */,
+				A8F0E8ED26E893B70061D845 /* DataProvider.swift in Sources */,
 				A8F0E8AF26E793C20061D845 /* RepoSearchResultViewModel.swift in Sources */,
 				A879A4DE26E63A9800B2D6FC /* ViewController.swift in Sources */,
 				A879A4DA26E63A9800B2D6FC /* AppDelegate.swift in Sources */,
