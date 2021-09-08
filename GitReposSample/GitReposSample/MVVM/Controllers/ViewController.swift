@@ -81,13 +81,16 @@ class ViewController: UIViewController {
         searchController = search
         // Do any additional setup after loading the view.
     }
+    
     @objc func refresh() {
         reloadRepositories()
     }
+    
     @objc func reloadRepositories(_ query: String? = "Swift") {
         pageNo = 1
         makeRequest(query ?? searchController.searchBar.text)
     }
+    
     private func makeRequest(_ query: String?) {
         view.startActivityIndicator()
         repoViewModel.fetchRepositories(query, pageNo: pageNo) { (repoSearchResult) in
