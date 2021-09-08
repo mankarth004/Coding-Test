@@ -18,7 +18,7 @@ extension UIViewController {
 
 extension UIView {
     func startActivityIndicator(_ interactionEnabled: Bool = false) {
-        let activityIndicator = UIActivityIndicatorView(style: .medium)
+        let activityIndicator = UIActivityIndicatorView(style: .white)
         activityIndicator.color = .gray
         activityIndicator.tag = 100
         activityIndicator.startAnimating()

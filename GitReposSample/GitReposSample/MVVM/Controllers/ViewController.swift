@@ -70,7 +70,7 @@ class ViewController: UIViewController {
         tableView.delegate = dataProvider
         tableView.dataSource = dataProvider
         refreshControl.attributedTitle = NSAttributedString(string: "Pull to refresh")
-        refreshControl.addTarget(self, action: #selector(reloadRepositories), for: .valueChanged)
+        refreshControl.addTarget(self, action: #selector(refresh), for: .valueChanged)
            tableView.addSubview(refreshControl)
         
         let search = UISearchController(searchResultsController: nil)
@@ -81,13 +81,9 @@ class ViewController: UIViewController {
         searchController = search
         // Do any additional setup after loading the view.
     }
-//
-//
-//    override func viewDidAppear(_ animated: Bool) {
-//        super.viewDidAppear(animated)
-//        makeRequest("Swift")
-//    }
-//    
+    @objc func refresh() {
+        reloadRepositories()
+    }
     @objc func reloadRepositories(_ query: String? = "Swift") {
         pageNo = 1
         makeRequest(query ?? searchController.searchBar.text)
